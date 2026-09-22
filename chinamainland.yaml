@@ -1,4 +1,4 @@
-name: ChinaMainland Rules
+name: ChinaMainland Rules(Github)
 desc: 插入到主配置 rules 之前
 rules: #!replace
 - GEOSITE,openai,JMS
