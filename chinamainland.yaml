@@ -1492,5 +1492,9 @@ rules: #!replace
 - IP-CIDR,172.16.0.0/12,DIRECT
 - IP-CIDR,127.0.0.0/8,DIRECT
 - GEOIP,CN,DIRECT,no-resolve
-- AND,((DST_PORT,443),(NETWORK,UDP)),JMS
+- SCRIPT, QUIC_SCRIPT, REJECT
 - MATCH,DIRECT
+
+script:
+  shortcuts: # Can be referenced in rules
+    QUIC_SCRIPT: network == 'udp' and dst_port == 443 # Matches QUIC protocol
