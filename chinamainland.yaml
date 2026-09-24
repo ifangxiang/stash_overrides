@@ -2,13 +2,12 @@ name: ChinaMainland Rules(Github)
 desc: 插入到主配置 rules 之前
 rules: #!replace
 - GEOSITE,openai,JMS
-
+- GEOSITE,bytedance,JMS
 - DOMAIN-SUFFIX,meta.com,JMS
 - DOMAIN-SUFFIX,meta.ai,JMS
 - DOMAIN-SUFFIX,accountkit.com,JMS
 - DOMAIN-SUFFIX,muse.ai,JMS
 - DOMAIN-KEYWORD,muse-code,JMS
-
 - DOMAIN-SUFFIX,clerk.com,JMS
 - DOMAIN-SUFFIX,perplexity.ai,JMS
 - DOMAIN-SUFFIX,deepseek.com,JMS
