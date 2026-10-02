@@ -1,4 +1,4 @@
 name: Tiktok Rules(Github)
 desc: 插入到主配置 rules 之前
 rules:
- - GEOSITE,tiktok,TikTok
+ - GEOSITE,tiktok,JMS
