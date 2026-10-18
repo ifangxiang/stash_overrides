@@ -3,8 +3,10 @@ desc: 插入到主配置 rules 之前
 rules: #!replace
 - GEOSITE,openai,JMS
 - GEOSITE,google,JMS
+# 提供给有UTUN4的特殊规则
 - DOMAIN-SUFFIX, aliyun-inc.com, ALILANG_UTUN4_PROXY
 - DOMAIN-SUFFIX, alibaba-inc.com, ALILANG_UTUN4_PROXY
+# 提供给有UTUN4的特殊规则
 - DOMAIN-SUFFIX,meta.com,JMS
 - DOMAIN-SUFFIX,meta.ai,JMS
 - DOMAIN-SUFFIX,accountkit.com,JMS
