@@ -9,6 +9,7 @@ rules: #!replace
 - DOMAIN-SUFFIX,metaaivm.com,JMS
 - DOMAIN-SUFFIX,accountkit.com,JMS
 - DOMAIN-SUFFIX,muse.ai,JMS
+- DOMAIN-KEYWORD,metaaivm,JMS
 - DOMAIN-KEYWORD,muse-code,JMS
 - DOMAIN-SUFFIX,clerk.com,JMS
 - DOMAIN-SUFFIX,perplexity.ai,JMS
